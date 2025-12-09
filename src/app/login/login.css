@@ -1,0 +1,84 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f2f4f7, #dfe3e8);
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  width: 360px;
+  margin: 80px auto;
+  padding: 30px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 24px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #34495e;
+  font-weight: 500;
+}
+
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccd1d9;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.2);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+button[type="button"] {
+  background-color: #bdc3c7;
+  color: #2c3e50;
+}
+
+button[type="button"]:hover {
+  background-color: #95a5a6;
+}
+
+.mensaje {
+  margin-top: 15px;
+  color: #e74c3c;
+  text-align: center;
+}
